@@ -97,8 +97,8 @@ class _DetailMealListState extends State<DetailMealList> {
                           SizedBox(height: 10),
                           Image.network(
                             snapshot.data![index].thumbnail,
-                            width: 200,
-                            height: 400,
+                            width: 400,
+                            height: 200,
                             fit: BoxFit.cover,
                           ),
                           SizedBox(height: 10),
